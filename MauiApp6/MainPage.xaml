@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiApp6.MainPage">
+    <VerticalStackLayout BackgroundColor="White">
+        <Path Stroke="Green" StrokeThickness="1" Fill="Green" Aspect="None">
+            <Path.Data>
+                <!--<EllipseGeometry Center="100, 100" RadiusX="50" RadiusY="50" ></EllipseGeometry>-->
+                <!--<LineGeometry StartPoint="100, 100" EndPoint="200, 200"></LineGeometry>-->
+                <!--<RectangleGeometry Rect="10, 10, 200, 200"></RectangleGeometry>-->
+                <GeometryGroup>
+                    <!--<GeometryGroup>
+                        <EllipseGeometry Center="10, 10" RadiusX="20" RadiusY="20"></EllipseGeometry>
+                        <EllipseGeometry Center="35, 10" RadiusX="20" RadiusY="20"></EllipseGeometry>
+                        <EllipseGeometry Center="65, 10" RadiusX="20" RadiusY="20"></EllipseGeometry>
+                        <EllipseGeometry Center="25, 35" RadiusX="20" RadiusY="20"></EllipseGeometry>
+                        <EllipseGeometry Center="50, 35" RadiusX="20" RadiusY="20"></EllipseGeometry>
+                    </GeometryGroup>-->
+                    <!--<GeometryGroup>
+                        <EllipseGeometry Center="10, 80" RadiusX="10" RadiusY="10"></EllipseGeometry>
+                        <EllipseGeometry Center="25, 80" RadiusX="10" RadiusY="10"></EllipseGeometry>
+                        <EllipseGeometry Center="40, 80" RadiusX="10" RadiusY="10"></EllipseGeometry>
+                        <EllipseGeometry Center="55, 80" RadiusX="10" RadiusY="10"></EllipseGeometry>
+                    </GeometryGroup>-->
+                    <GeometryGroup>
+                        <RectangleGeometry Rect="20, 20, 40, 40"></RectangleGeometry>
+                        <RectangleGeometry Rect="60, 20, 60, 60"></RectangleGeometry>
+                        <RectangleGeometry Rect="0, 60, 20, 80"></RectangleGeometry>
+                        <RectangleGeometry Rect="0, 80, 60, 90"></RectangleGeometry>
+                    </GeometryGroup>
+                </GeometryGroup>
+            </Path.Data>
+        </Path>
+    </VerticalStackLayout>
+</ContentPage>
